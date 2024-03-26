@@ -1,0 +1,81 @@
+시야회전 = 휠 마우스
+시야확대축소 ctrl 휠 마우스
+시야이동 = shift 휠 마우스
+정면, 측면 , 후면 = `~버튼 또는 tab버튼 위
+
+물체 생성
+shift A > Mesh > 물체선택
+
+물체 잡기
+물체 선택 > G> xyz > 마우스 이동 > 좌우클릭
+
+물체 회전 
+물체 선택 > R> xyz > 마우스 이동 > 좌우클릭
+
+물체 크기
+물체 선택 > s> xyz > 마우스 이동 > 좌우클릭
+
+물체 복사
+물체 선택 shift+D xyz 좌우 클릭
+
+물체 중심으로 회전
+물체선택 > numpad아래 찜
+
+선택한 오브젝트만 보이기 단축키/
+
+세밀하게 조정
+이동 회전 크기 변경시 > shift + 마우스 이동
+
+GRS 치수제어
+물체선택 > GRS > XYZ > 숫자입력 > 좌/우 클릭
+
+GRS 2축 제어
+물체>선택>GRS>SHIFT 제거할 축 > 숫자입력 >좌우 클릭
+
+GLOBAL/LOCAL 상단바 가운데
+GLOBAL: 뷰포트의 축 항상 일정
+LOCAL: 물체 측 물체 이동에 따라 변경
+
+툴박스 (무브 회전 스케일)
+아웃라이너 (뷰포트에 있는 것들 관리)
+프로피터 (속성을 제어)
+타임라인 (애니메이션)
+
+prespective 원근법 적용하여 표시
+orthograpic 원근법 무시하고 실 길이대로 표시
+
+object mode 물체를 제어
+edit mode 물체의 점,선,면을 제어
+
+다중선택 shift 좌 클릭
+
+extrude = 면 선택 > e for 툴박스 or 우클릭 선택
+
+inset -  면 선택 > i
+
+loop cut = ctrl + r
+
+alt+점 선택을 하면 -> 수직에 있는 점들이 전부 선택
+alt+선을 선택하면 -> 면과 수평에 있는 점들이 선택
+
+합치기 빼기 교차점
+
+modifier > boolean
+
+intersect 교차점
+union 합체
+difference 빼기
+
+이미지 추가
+shift + a > image > refernce
+
+loop cut 균등분할  = ctrl + r 휠굴림 또는 숫자입력
+
+ 채우기 fill = shift+연결한 선들 선택 > f
+
+부드럽게 (면 세분하기)
+modifier > subdivision surface
+- levels viewport 부드러운 정도
+- 렌더링할 떄만 적용 (둘 다 같은 값으로 하면 됨)
+
+부드럽게 보이기 = 물체선택 > 우클릭 > shade smooth
